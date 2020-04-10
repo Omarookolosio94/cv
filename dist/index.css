@@ -1,6 +1,7 @@
 :root {
-  --gray: rgba(0, 0, 0, 0.125);
-  --primary: #007bff;
+  /* --gray: rgba(0, 0, 0, 0.125); */
+  --gray: #90caf9;
+  --primary: #4879ad;
   --success: #1e7e34;
   --danger: #dc3545;
   --light: #fff;
@@ -245,6 +246,7 @@ body {
 /* Nav Styling */
 nav {
   border: 1px solid var(--gray);
+  background-color: var(--gray);
   width: auto;
   padding: 1rem;
   margin: 1rem;
@@ -266,7 +268,7 @@ nav ul {
 
 .contact {
   margin-top: 8px;
-  width: 40%;
+  width: 70%;
 }
 
 .contact ul,
@@ -401,31 +403,9 @@ ul.exp-detail li {
 }
 
 .fal.fa-star {
-  color: var(--gold);
+  color: var(--light);
 }
 
 .fal.fa-star.light {
   color: var(--dark);
 }
-/* 
-.details .pro-box .pro-int li {
-  padding: 6px 8px;
-} */
-
-/* SMALL SCREEN */ */
-/* @media screen and (max-width: 480px) {
-} */
-/* //TABLETS,SMALL LAPTOPS, MOBILE LANDSCAPES */
-/* @media (min-width: 767px) {
-  nav {
-    width: 50vw;
-  }
-}
-
-/* //DESKTOPS,LAPTOPS, IPADS */
-/* @media (min-width: 1024px) {
-} */
-
-/* //WIDESCREENS */
-/* @media screen and (min-width: 1025px) {
-} */
